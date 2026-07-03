@@ -1,0 +1,15 @@
+# Dependency folders (Never push these, they are huge!)
+node_modules/
+jspm_packages/
+
+# Local environment secret variables (API keys, database passwords)
+.env
+.env.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build/Dist output folders
+dist/
+build/
