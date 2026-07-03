@@ -1,4 +1,5 @@
-function createGreeting(firstName, lastName, timeOfDay) {
+//export the function to the test.js for it to be 
+export function createGreeting(firstName, lastName, timeOfDay) {
     let fullName = formatName(firstName, lastName);
 
     let greeting = getGreeting(timeOfDay);
@@ -18,5 +19,6 @@ function formatName(firstName, lastName) {
     return `${firstName} ${lastName}`;
 }
 
-// Tests
-console.log(createGreeting("Ava", " Stone", "Morning"));
+console.log(createGreeting('Ava', 'Stone', 'morning'));
+console.log(createGreeting('Noah', 'Kim', 'evening'));
+console.log(createGreeting('Mina', 'Patel', 'afternoon'));
