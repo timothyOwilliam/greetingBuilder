@@ -1,2 +1,3 @@
-# greetingBuilder
-Beginner Project
+# Greeting Builder
+
+This project shows functions and if...else statements
