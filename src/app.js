@@ -18,7 +18,3 @@ function getGreeting(timeOfDay) {
 function formatName(firstName, lastName) {
     return `${firstName} ${lastName}`;
 }
-
-console.log(createGreeting('Ava', 'Stone', 'morning'));
-console.log(createGreeting('Noah', 'Kim', 'evening'));
-console.log(createGreeting('Mina', 'Patel', 'afternoon'));

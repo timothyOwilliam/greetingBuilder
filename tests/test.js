@@ -1,5 +1,5 @@
 //tests
-import {createGreeting} from './app.js'
+import {createGreeting} from '../src/app.js'
 
 function runTests(){
     console.log("Running tests...");
